@@ -40,7 +40,6 @@ jobs:
         env:
           TF_VAr_ec2_name: '$'
         run: |
-          cd aws-terraform/
           terraform init
           terraform validate
           terraform plan
