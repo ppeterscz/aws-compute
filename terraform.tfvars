@@ -1,1 +1,0 @@
-ec2_name = enseq-ec2
